@@ -29,7 +29,7 @@ let rec length L =
     | [] -> 0 // Empty list
     | _ :: rest -> 1 + length rest // return the length of the list (recursion used for iterating)
 
-let high_frequency_chars = [ 'e'; 't'; 'a'; 'o'; 'i'; 'n'; 's'; 'r'; 'h'; 'l' ]
+let high_frequency_chars = [ 'a'; 'e'; 'h'; 'i'; 'l'; 'o'; 'n'; 'r'; 's'; 't' ]
 
 //
 // returns # for specific letter
